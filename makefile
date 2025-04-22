@@ -47,8 +47,8 @@ clean:
 	$(RM) *.o $(TARGET) *~
 
 install:
-	install $TARGET $(DESTDIR)($PREFIX)/bin/
-	install -d /usr/share/doc/cscript
+	install $(TARGET) $(DESTDIR)$(PREFIX)/bin/
+#	install -d /usr/share/doc/multirenamer
 	install -m 644 README.md /usr/share/doc/multirenamer
 
 uninstall:
