@@ -1,3 +1,8 @@
+> [!CAUTION]
+> This project has moved!
+> 
+> New Location: https://codeberg.org/littlesmith/multirenamer
+
 # About multirenamer
 
 multirenamer is a very simple tool that enables the user to bulk rename files in a directory, optionally including subdirectories.
